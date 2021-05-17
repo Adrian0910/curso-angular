@@ -1,9 +1,8 @@
-import { calculaISV, Producto } from "./ejercicios/06-desestructuracion-function";
+import { calculaISV } from "./06-desestructuracion-function";
+
 /*
     ===== Código de TypeScript =====
 */
-
-
 const carritoCompras: Producto[] = [
     {
         desc: 'Telefono 1',

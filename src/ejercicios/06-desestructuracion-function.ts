@@ -3,7 +3,7 @@
 */
 /* Debemos especificar el tipo del arreglo */
 
-interface Producto{
+export interface Producto{
     desc: string;
     precio: number;
 }
@@ -18,7 +18,7 @@ const tableta: Producto = {
     precio: 350
 }
 
-function calculaISV( productos: Producto[]):[number, number]{
+export function calculaISV( productos: Producto[]):[number, number]{
     
     let total = 0;
 
@@ -33,5 +33,5 @@ const articulos = [ telefono, tableta];
 
 const [ total, isv ] = calculaISV( articulos );
 
-console.log('Total', total);
-console.log('ISV', isv);
+/* console.log('Total', total);
+console.log('ISV', isv); */
